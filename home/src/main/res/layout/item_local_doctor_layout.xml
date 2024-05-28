@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="doctor"
+            type="com.tubewiki.home.doctor.bean.LocalDoctor" />
+        <import type="com.tubewiki.home.R" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_corner_shape"
+        android:padding="@dimen/dp_16">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/doctor_image"
+            android:layout_width="@dimen/dp_44"
+            android:layout_height="@dimen/dp_44"
+            android:scaleType="fitXY"
+            app:loadCircle="@{doctor.avatarFile}"
+            app:placeholder="@{R.drawable.icon_default_login_avatar}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/doctor_info_name_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_20"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{doctor.name}"
+            android:textColor="@color/text_color"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/doctor_star"
+            app:layout_constraintStart_toEndOf="@id/doctor_image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="凤梨鸿" />
+
+        <TextView
+            android:id="@+id/doctor_info_position_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#FF7F7F7F"
+            android:textSize="14sp"
+            android:text="@{doctor.position}"
+            android:layout_marginEnd="@dimen/dp_20"
+            app:layout_constraintEnd_toStartOf="@id/doctor_star"
+            app:layout_constraintStart_toStartOf="@id/doctor_info_name_text_view"
+            app:layout_constraintTop_toBottomOf="@id/doctor_info_name_text_view"
+            tools:text="生殖科" />
+
+        <ImageView
+            android:id="@+id/doctor_star"
+            android:layout_width="@dimen/dp_18"
+            android:layout_height="@dimen/dp_18"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:src="@drawable/wiki_star"
+            app:layout_constraintBottom_toBottomOf="@id/tv_score"
+            app:layout_constraintEnd_toStartOf="@+id/tv_score"
+            app:layout_constraintTop_toTopOf="@id/tv_score" />
+
+        <TextView
+            android:id="@+id/tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_currency"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@{doctor.starStr}"
+            app:layout_constraintBottom_toBottomOf="@id/doctor_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/doctor_image"
+            tools:text="5.0" />
+
+        <View
+            android:id="@+id/divider_view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/dp_16"
+            android:background="#FFF9F9F9"
+            app:layout_constraintTop_toBottomOf="@id/doctor_image" />
+
+        <TextView
+            android:id="@+id/doctor_info_hospital_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            android:text="@{doctor.hospitalName}"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider_view"
+            tools:text="四川省华西医院" />
+
+        <TextView
+            android:id="@+id/doctor_info_department_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginTop="@dimen/dp_12"
+            android:textColor="@color/text_color"
+            android:textSize="14sp"
+            android:text="@{doctor.department}"
+            app:layout_constraintStart_toEndOf="@id/doctor_info_hospital_text_view"
+            app:layout_constraintTop_toBottomOf="@id/divider_view"
+            tools:text="生殖科" />
+
+        <TextView
+            android:id="@+id/doctor_info_desc_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:textColor="#7F7F7F"
+            android:textSize="13sp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@{doctor.columnStr}"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/doctor_info_department_text_view"
+            tools:text="擅长：试管婴儿、试管婴儿、试管婴儿、试管婴儿、试管婴儿、试管婴儿、试管婴儿" />
+
+        <TextView
+            android:id="@+id/tv_ask_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:background="@drawable/wiki_ask_num_f5_radius_12"
+            android:paddingStart="@dimen/dp_8"
+            android:paddingTop="@dimen/dp_4"
+            android:paddingEnd="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_4"
+            android:text="@{doctor.consultStr}"
+            android:textColor="#ff7f7f7f"
+            android:textSize="12sp"
+            tools:text="咨询量999"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/doctor_info_desc_text_view" />
+
+        <HorizontalScrollView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_12"
+            android:fillViewport="true"
+            android:orientation="horizontal"
+            android:overScrollMode="never"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="@id/tv_ask_num"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_ask_num"
+            app:layout_constraintTop_toTopOf="@id/tv_ask_num">
+
+            <LinearLayout
+                android:id="@+id/ll_tag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

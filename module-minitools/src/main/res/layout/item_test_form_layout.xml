@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/dp_20"
+    android:paddingVertical="@dimen/dp_80">
+
+    <com.allen.library.shape.ShapeLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dp_20"
+        app:shapeCornersRadius="@dimen/dp_8"
+        app:shapeSolidColor="#1A6D39FF">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_query_icon" />
+
+        <TextView
+            android:id="@+id/tv_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:lineSpacingMultiplier="1.1"
+            tools:text="试孕了多久了?"
+            android:textColor="@color/color_currency"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+    </com.allen.library.shape.ShapeLinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_answer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF7F7F7F"
+        android:textSize="@dimen/sp_12"
+        android:visibility="gone"
+        tools:text="数据来源：『甲状腺功能或减退症』健康调查自测表 · 《开卷有益-求医问药》" />
+
+</LinearLayout>

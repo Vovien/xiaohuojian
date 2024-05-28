@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="hospital"
+            type="com.tubewiki.home.bean.hospital.bean.AllHospital" />
+
+        <import type="com.tubewiki.home.R" />
+
+    </data>
+
+    <com.allen.library.shape.ShapeConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_16"
+        app:shapeCornersRadius="@dimen/dp_8"
+        app:shapeSolidColor="@color/white">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="@dimen/dp_108"
+            android:layout_height="@dimen/dp_72"
+            android:scaleType="centerCrop"
+            app:loadUrl="@{hospital.logo}"
+            app:urlRadius="@{8}"
+            app:placeholder="@{R.drawable.image_photo_add_new}"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.allen.library.shape.ShapeTextView
+            android:id="@+id/tv_level"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_16"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="@dimen/dp_2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_10"
+            android:textStyle="bold"
+            android:text="@{hospital.levelName}"
+            app:layout_constraintLeft_toLeftOf="@id/iv_cover"
+            app:layout_constraintTop_toTopOf="@id/iv_cover"
+            app:shapeCornersTopLeftRadius="@dimen/dp_8"
+            app:shapeCornersBottomRightRadius="@dimen/dp_8"
+            app:shapeSolidColor="@color/color_currency"
+            tools:text="三甲" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_11"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:text="@{hospital.hospitalName}"
+            tools:text="成都中医药大学第一附属医院成都中医药大学第一附属医院成都中医药大学第一附属医院成都中医药大学第一附属医院"
+            android:textColor="@color/color_262626"
+            android:textSize="@dimen/sp_15"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/iv_cover"
+            app:layout_constraintTop_toTopOf="@+id/iv_cover" />
+
+        <TextView
+            android:id="@+id/tv_simple_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_13"
+            android:text="简称"
+            android:textColor="@color/color_7f7f7f"
+            android:textSize="@dimen/sp_12"
+            app:layout_constraintLeft_toLeftOf="@+id/tv_title"
+            app:layout_constraintBottom_toBottomOf="@id/iv_cover" />
+
+        <TextView
+            android:id="@+id/tv_simple_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_8"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@{hospital.hospitalShortName}"
+            tools:text="成都第一医院"
+            android:textColor="@color/color_7f7f7f"
+            android:textSize="@dimen/sp_12"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_simple_title"
+            app:layout_constraintEnd_toEndOf="@id/tv_title"
+            app:layout_constraintStart_toEndOf="@+id/tv_simple_title"
+            app:layout_constraintTop_toTopOf="@+id/tv_simple_title" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/barrier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="iv_cover, tv_simple_title" />
+
+        <TextView
+            android:id="@+id/tv_doctor_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            tools:text="1139位专家"
+            android:text="@{hospital.doctorCountStr}"
+            android:textColor="@color/color_7f7f7f"
+            android:textSize="@dimen/sp_12"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_cover" />
+
+        <ImageView
+            android:id="@+id/iv_location"
+            android:layout_width="@dimen/dp_12"
+            android:layout_height="@dimen/dp_12"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:src="@drawable/location_grey_icon"
+            app:layout_constraintBottom_toBottomOf="@id/tv_doctor_num"
+            app:layout_constraintEnd_toEndOf="@id/iv_cover"
+            app:layout_constraintTop_toTopOf="@+id/tv_doctor_num" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="0dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="@dimen/dp_4"
+            android:layout_marginEnd="@dimen/dp_4"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@{hospital.locationStr}"
+            tools:text="四川省成都市省成都市市"
+            android:textColor="@color/color_7f7f7f"
+            android:textSize="@dimen/sp_12"
+            app:layout_constraintBottom_toBottomOf="@id/tv_doctor_num"
+            app:layout_constraintEnd_toStartOf="@+id/tv_length"
+            app:layout_constraintStart_toEndOf="@+id/iv_location"
+            app:layout_constraintTop_toTopOf="@id/tv_doctor_num" />
+
+        <TextView
+            android:id="@+id/tv_length"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="1232.9km"
+            android:textColor="@color/color_7f7f7f"
+            android:textSize="@dimen/sp_12"
+            android:text="@{hospital.distance}"
+            app:layout_constraintBottom_toBottomOf="@id/tv_doctor_num"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tv_doctor_num" />
+    </com.allen.library.shape.ShapeConstraintLayout>
+</layout>

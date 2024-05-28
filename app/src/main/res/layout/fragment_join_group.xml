@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkdv.mvvmfast.view.StateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            app:elevation="@dimen/dp_0">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/dp_24"
+                app:layout_scrollFlags="scroll">
+
+                <com.allen.library.shape.ShapeConstraintLayout
+                    android:id="@+id/cl_single"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="@dimen/dp_68"
+                    android:layout_marginLeft="@dimen/dp_17"
+                    android:paddingLeft="@dimen/dp_12"
+                    android:paddingRight="@dimen/dp_6"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toLeftOf="@id/cl_female"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:shapeCornersRadius="@dimen/dp_12"
+                    app:shapeGradientAngle="top_bottom"
+                    app:shapeGradientEndColor="#F9C252"
+                    app:shapeGradientStartColor="#D3910A"
+                    app:shapeStrokeColor="@color/white">
+
+                    <ImageView
+                        android:id="@+id/iv_single_icon"
+                        android:layout_width="@dimen/dp_52"
+                        android:layout_height="@dimen/dp_52"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/circle_single_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_single_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_12"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="骨髓造精生殖"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_single_desc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_13"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/white65"
+                        android:textSize="@dimen/sp_12"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="@id/tv_single_title"
+                        app:layout_constraintRight_toRightOf="parent"
+                        tools:text="副文案副文案副文案" />
+
+                </com.allen.library.shape.ShapeConstraintLayout>
+
+                <com.allen.library.shape.ShapeConstraintLayout
+                    android:id="@+id/cl_female"
+                    android:layout_width="@dimen/dp_0"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:layout_marginRight="@dimen/dp_16"
+                    android:paddingLeft="@dimen/dp_16"
+                    android:paddingRight="@dimen/dp_12"
+                    app:layout_constraintBottom_toBottomOf="@id/cl_single"
+                    app:layout_constraintLeft_toRightOf="@id/cl_single"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/cl_single"
+                    app:shapeCornersRadius="@dimen/dp_12"
+                    app:shapeGradientAngle="top_bottom"
+                    app:shapeGradientEndColor="#6691F3"
+                    app:shapeGradientStartColor="#0A57D3">
+
+                    <ImageView
+                        android:id="@+id/iv_female_icon"
+                        android:layout_width="@dimen/dp_52"
+                        android:layout_height="@dimen/dp_52"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/circle_female_icon"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_female_title"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_12"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:text="供精试管婴儿"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/tv_female_desc"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dp_13"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/white65"
+                        android:textSize="@dimen/sp_12"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="@id/tv_female_title"
+                        app:layout_constraintRight_toRightOf="parent"
+                        tools:text="副文案副文案副文案" />
+
+                </com.allen.library.shape.ShapeConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dp_50"
+                    android:layout_marginStart="@dimen/dp_20"
+                    android:gravity="center|bottom"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/dp_24"
+                    app:layout_constraintTop_toBottomOf="@id/cl_single"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="推荐"
+                        android:textColor="@color/color_262626"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <com.allen.library.shape.ShapeTextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginTop="@dimen/dp_4"
+                        app:shapeSolidColor="#FFFF4B4B"
+                        app:shapeType="oval" />
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.apkdv.mvvmfast.view.StateLayout>

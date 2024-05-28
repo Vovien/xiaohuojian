@@ -1,0 +1,4 @@
+<resources>
+    <integer name="num_5">5</integer>
+    <integer name="num_10">10</integer>
+</resources>

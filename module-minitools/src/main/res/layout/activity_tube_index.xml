@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#1A000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toTopOf="@+id/btn_sure"
+        app:layout_constraintTop_toBottomOf="@+id/line">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/tv_title_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_24"
+                android:text="准妈妈的年龄"
+                android:textColor="@color/color_262626"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:fontFamily="@font/condensed"
+                android:text="30"
+                android:textColor="#ff262626"
+                android:textSize="42sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_age" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:text="岁"
+                android:textColor="#ff262626"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/tv_age"
+                app:layout_constraintStart_toEndOf="@+id/tv_age" />
+
+            <com.jmbon.minitools.base.widget.ruler.ScrollRulerLayout
+                android:id="@+id/ruler_age"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:layout_marginTop="@dimen/dp_14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_age"
+                app:rl_is_float="false"
+                app:rl_line_color="@color/color_7F7F7F"
+                app:rl_line_space="@dimen/dp_16"
+                app:rl_line_width="@dimen/dp_1"
+                app:rl_long_line_height="@dimen/dp_24"
+                app:rl_short_line_height="@dimen/dp_16"
+                app:rl_small_space_num="@integer/num_5"
+                app:rl_start_line_index="2"
+                app:rl_text_color="@color/color_7F7F7F" />
+
+
+            <TextView
+                android:id="@+id/tv_title_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_32"
+                android:text="准妈妈的身高"
+                android:textColor="@color/color_262626"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ruler_age"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_height"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:fontFamily="@font/condensed"
+                android:text="160"
+                android:textColor="#ff262626"
+                android:textSize="42sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_height" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:text="cm"
+                android:textColor="#ff262626"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/tv_height"
+                app:layout_constraintStart_toEndOf="@+id/tv_height" />
+
+            <com.jmbon.minitools.base.widget.ruler.ScrollRulerLayout
+                android:id="@+id/ruler_height"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:layout_marginTop="@dimen/dp_14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_height"
+                app:rl_is_float="false"
+                app:rl_line_color="@color/color_7F7F7F"
+                app:rl_line_space="@dimen/dp_16"
+                app:rl_line_width="@dimen/dp_1"
+                app:rl_long_line_height="@dimen/dp_24"
+                app:rl_short_line_height="@dimen/dp_16"
+                app:rl_small_space_num="@integer/num_5"
+                app:rl_text_color="@color/color_7F7F7F" />
+
+            <TextView
+                android:id="@+id/tv_title_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_20"
+                android:layout_marginTop="@dimen/dp_32"
+                android:text="准妈妈的体重"
+                android:textColor="@color/color_262626"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ruler_height"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:fontFamily="@font/condensed"
+                android:text="50.0"
+                android:textColor="#ff262626"
+                android:textSize="42sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_title_weight" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:text="kg"
+                android:textColor="#ff262626"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/tv_weight"
+                app:layout_constraintStart_toEndOf="@+id/tv_weight" />
+
+            <com.jmbon.minitools.base.widget.ruler.ScrollRulerLayout
+                android:id="@+id/ruler_weight"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_80"
+                android:layout_marginTop="@dimen/dp_14"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_weight"
+                app:rl_is_float="true"
+                app:rl_line_color="@color/color_7F7F7F"
+                app:rl_line_space="@dimen/dp_8"
+                app:rl_line_width="@dimen/dp_1"
+                app:rl_long_line_height="@dimen/dp_24"
+                app:rl_short_line_height="@dimen/dp_12"
+                app:rl_small_space_num="@integer/num_10"
+                app:rl_text_color="@color/color_7F7F7F" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="@dimen/dp_24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ruler_weight"
+                app:layout_constraintVertical_weight="1" />
+
+
+            <com.allen.library.shape.ShapeButton
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="@dimen/dp_80"
+                app:layout_constraintStart_toStartOf="@+id/ruler_weight"
+                app:layout_constraintTop_toTopOf="@+id/ruler_weight"
+                app:shapeGradientEndColor="@color/white60"
+                app:shapeGradientStartColor="@color/white" />
+
+            <com.allen.library.shape.ShapeButton
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="@dimen/dp_80"
+                android:clickable="false"
+                app:layout_constraintEnd_toEndOf="@+id/ruler_weight"
+                app:layout_constraintTop_toTopOf="@+id/ruler_weight"
+                app:shapeGradientEndColor="@color/white"
+                app:shapeGradientStartColor="@color/white60" />
+
+            <com.allen.library.shape.ShapeButton
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="@dimen/dp_80"
+                app:layout_constraintStart_toStartOf="@+id/ruler_height"
+                app:layout_constraintTop_toTopOf="@+id/ruler_height"
+                app:shapeGradientEndColor="@color/white60"
+                app:shapeGradientStartColor="@color/white" />
+
+            <com.allen.library.shape.ShapeButton
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="@dimen/dp_80"
+                android:clickable="false"
+                app:layout_constraintEnd_toEndOf="@+id/ruler_height"
+                app:layout_constraintTop_toTopOf="@+id/ruler_height"
+                app:shapeGradientEndColor="@color/white"
+                app:shapeGradientStartColor="@color/white60" />
+
+            <com.allen.library.shape.ShapeButton
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="@dimen/dp_80"
+                app:layout_constraintStart_toStartOf="@+id/ruler_age"
+                app:layout_constraintTop_toTopOf="@+id/ruler_age"
+                app:shapeGradientEndColor="@color/white60"
+                app:shapeGradientStartColor="@color/white" />
+
+            <com.allen.library.shape.ShapeButton
+                android:layout_width="@dimen/dp_140"
+                android:layout_height="@dimen/dp_80"
+                android:clickable="false"
+                app:layout_constraintEnd_toEndOf="@+id/ruler_age"
+                app:layout_constraintTop_toTopOf="@+id/ruler_age"
+                app:shapeGradientEndColor="@color/white"
+                app:shapeGradientStartColor="@color/white60" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.allen.library.SuperButton
+        android:id="@+id/btn_sure"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_45"
+        android:enabled="false"
+        android:text="下一步"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:sCornersRadius="@dimen/dp_10"
+        app:sSelectorDisableColor="@color/picture_color_e5"
+        app:sSelectorNormalColor="@color/color_currency"
+        app:sSelectorPressedColor="@color/color_currency"
+        app:sUseSelector="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

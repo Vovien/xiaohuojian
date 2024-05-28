@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        android:paddingBottom="@dimen/dp_24"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/ll_operate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/item_fertility_group_chat_layout" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ll_operate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/dp_20"
+        app:behavior_hideable="true"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.allen.library.shape.ShapeConstraintLayout
+            android:id="@+id/cl_tube_test"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_56"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_19"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/tv_custom_scheme"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeCornersRadius="@dimen/dp_11"
+            app:shapeStrokeColor="#FF4EC004"
+            app:shapeStrokeWidth="0.5dp">
+
+            <TextView
+                android:id="@+id/tv_tube_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="重新测试"
+                android:textColor="#FF4EC004"
+                android:textSize="@dimen/sp_16"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </com.allen.library.shape.ShapeConstraintLayout>
+
+        <com.allen.library.shape.ShapeTextView
+            android:id="@+id/tv_custom_scheme"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dp_56"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_20"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:paddingHorizontal="@dimen/dp_6"
+            android:text="保存结果"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@id/cl_tube_test"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/cl_tube_test"
+            app:shapeCornersRadius="@dimen/dp_11"
+            app:shapeSolidColor="@color/color_currency" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.apkdv.mvvmfast.view.titlebar.widget.CommonTitleBar
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:leftImageResource="@drawable/icon_back_black"
+        app:leftType="imageButton"
+        app:titleBarColor="@color/transparent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

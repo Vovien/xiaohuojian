@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <include
+        android:id="@+id/ll_item"
+        layout="@layout/item_scheme_result_notice_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.allen.library.shape.ShapeTextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/ll_item"
+        app:layout_constraintTop_toTopOf="@id/ll_item"
+        app:shapeGradientAngle="top_bottom"
+        app:shapeGradientEndColor="@color/white"
+        app:shapeGradientCenterColor="@color/white"
+        app:shapeGradientStartColor="@color/white80" />
+
+    <LinearLayout
+        android:id="@+id/ll_add_wechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/dp_44"
+        app:layout_constraintTop_toBottomOf="@id/ll_item">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/home_scheme_result_tip_icon"
+            android:drawablePadding="@dimen/dp_4"
+            android:text="以上仅供参考，处置建议及助孕方案以医生见诊为准"
+            android:textColor="@color/color_7F7F7F"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/tv_add_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_24"
+            android:drawableLeft="@drawable/home_scheme_lock_icon"
+            android:drawablePadding="@dimen/dp_4"
+            android:text="添加生育顾问，获取完整版好孕方案"
+            android:textColor="@color/color_currency"
+            android:textSize="@dimen/sp_18"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

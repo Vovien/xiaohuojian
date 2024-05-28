@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="bean"
+            type="com.tubewiki.home.bean.HomeHeaderBean" />
+        <import type="com.tubewiki.home.R" />
+    </data>
+
+    <com.apkdv.mvvmfast.view.StateLayout
+        android:id="@+id/state_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ColorFAFA">
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/nestScroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:focusableInTouchMode="true"
+            android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageLogo"
+                    android:layout_width="@dimen/dp_130"
+                    android:layout_height="@dimen/dp_40"
+                    android:layout_marginStart="@dimen/dp_12"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:src="@drawable/home_header_logo_icon"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:load="@{bean.logo}" />
+
+                <LinearLayout
+                    android:id="@+id/ll_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_24"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/dp_20">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <com.allen.library.shape.ShapeConstraintLayout
+                                android:id="@+id/cl_girl_tool"
+                                android:layout_width="0dp"
+                                android:layout_height="204dp"
+                                android:layout_marginTop="@dimen/dp_33"
+                                android:layout_weight="1"
+                                app:shapeCornersRadius="@dimen/dp_8"
+                                app:shapeSolidColor="#FFFFE3E3">
+
+                                <TextView
+                                    android:id="@+id/tv_girl_tool_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/dp_16"
+                                    android:layout_marginTop="@dimen/dp_65"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:text="@{bean.womanCategory.title}"
+                                    android:textColor="#FFF85C5C"
+                                    android:textSize="@dimen/sp_20"
+                                    android:textStyle="bold"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    tools:text="女性生育力" />
+
+                                <TextView
+                                    android:id="@+id/tv_girl_tool_desc"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginHorizontal="@dimen/dp_16"
+                                    android:layout_marginTop="@dimen/dp_6"
+                                    android:ellipsize="end"
+                                    android:maxLines="2"
+                                    android:text="@{bean.womanCategory.subTitle}"
+                                    android:textColor="#FFF85C5C"
+                                    android:textSize="@dimen/sp_13"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/tv_girl_tool_title"
+                                    tools:text="生育力测试生育力测试生育力测试..." />
+
+                                <com.allen.library.shape.ShapeTextView
+                                    android:id="@+id/tv_girl_tool_test"
+                                    android:layout_width="0dp"
+                                    android:layout_height="32dp"
+                                    android:layout_marginHorizontal="@dimen/dp_16"
+                                    android:layout_marginBottom="@dimen/dp_16"
+                                    android:gravity="center"
+                                    android:text="开始测试"
+                                    android:textColor="@color/color_262626"
+                                    android:textSize="@dimen/sp_14"
+                                    android:textStyle="bold"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:shapeCornersRadius="6.4dp"
+                                    app:shapeSolidColor="@color/white" />
+
+                            </com.allen.library.shape.ShapeConstraintLayout>
+
+                            <FrameLayout
+                                android:layout_width="0dp"
+                                android:layout_height="237dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_weight="1">
+
+                                <com.allen.library.shape.ShapeConstraintLayout
+                                    android:id="@+id/cl_man_tool"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginTop="@dimen/dp_33"
+                                    app:shapeCornersRadius="@dimen/dp_8"
+                                    app:shapeSolidColor="#FFC5D3FF">
+
+                                    <TextView
+                                        android:id="@+id/tv_man_tool_title"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/dp_16"
+                                        android:layout_marginTop="@dimen/dp_65"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"
+                                        android:text="@{bean.manCategory.title}"
+                                        android:textColor="#FF2D5AE6"
+                                        android:textSize="@dimen/sp_20"
+                                        android:textStyle="bold"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent"
+                                        tools:text="男性生育力" />
+
+                                    <TextView
+                                        android:id="@+id/tv_man_tool_desc"
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginHorizontal="@dimen/dp_16"
+                                        android:layout_marginTop="@dimen/dp_6"
+                                        android:ellipsize="end"
+                                        android:maxLines="2"
+                                        android:text="@{bean.manCategory.subTitle}"
+                                        android:textColor="#FF2D5AE6"
+                                        android:textSize="@dimen/sp_13"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/tv_man_tool_title"
+                                        tools:text="生育力测试生育力测试生育力测试..." />
+
+                                    <com.allen.library.shape.ShapeTextView
+                                        android:id="@+id/tv_man_tool_test"
+                                        android:layout_width="0dp"
+                                        android:layout_height="32dp"
+                                        android:layout_marginHorizontal="@dimen/dp_16"
+                                        android:layout_marginBottom="@dimen/dp_16"
+                                        android:gravity="center"
+                                        android:text="开始测试"
+                                        android:textColor="@color/color_262626"
+                                        android:textSize="@dimen/sp_14"
+                                        android:textStyle="bold"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:shapeCornersRadius="6.4dp"
+                                        app:shapeSolidColor="@color/white" />
+
+                                </com.allen.library.shape.ShapeConstraintLayout>
+
+                                <com.google.android.material.imageview.ShapeableImageView
+                                    android:id="@+id/iv_man"
+                                    android:layout_width="@dimen/dp_90"
+                                    android:layout_height="@dimen/dp_90"
+                                    android:layout_marginStart="@dimen/dp_12"
+                                    app:load="@{bean.manCategory.logo}"
+                                    app:placeholder="@{R.drawable.home_header_man_icon}" />
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                        <com.google.android.material.imageview.ShapeableImageView
+                            android:id="@+id/iv_girl"
+                            android:layout_width="@dimen/dp_90"
+                            android:layout_height="@dimen/dp_90"
+                            android:layout_marginStart="@dimen/dp_16"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:load="@{bean.womanCategory.logo}"
+                            app:placeholder="@{R.drawable.home_header_girl_icon}" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <com.allen.library.shape.ShapeConstraintLayout
+                        android:id="@+id/cl_tool"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/dp_20"
+                        android:layout_marginTop="@dimen/dp_20"
+                        app:shapeCornersRadius="@dimen/dp_8"
+                        app:shapeStrokeColor="@color/white"
+                        app:shapeStrokeWidth="@dimen/dp_1"
+                        app:shapeGradientAngle="left_right"
+                        app:shapeGradientEndColor="#00E69A4E"
+                        app:shapeGradientStartColor="#1AE69A4E">
+
+                        <TextView
+                            android:id="@+id/tv_tool_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dp_16"
+                            android:layout_marginTop="@dimen/dp_14"
+                            android:textColor="@color/color_262626"
+                            android:textSize="@dimen/sp_17"
+                            android:textStyle="bold"
+                            android:text="@{bean.tubeTest.title}"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            tools:text="试管自测"/>
+
+                        <TextView
+                            android:id="@+id/tv_tool_desc"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_1"
+                            android:textColor="@color/color_262626"
+                            android:textSize="@dimen/sp_11"
+                            android:text="@{bean.tubeTest.subTitle}"
+                            app:layout_constraintStart_toStartOf="@id/tv_tool_title"
+                            app:layout_constraintTop_toBottomOf="@id/tv_tool_title"
+                            tools:text="计算试管婴儿费用及时间"/>
+
+                        <ImageView
+                            android:id="@+id/iv_tool"
+                            android:layout_width="@dimen/dp_44"
+                            android:layout_height="@dimen/dp_44"
+                            android:layout_marginVertical="@dimen/dp_13"
+                            android:layout_marginEnd="@dimen/dp_20"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:load="@{bean.tubeTest.icon}"/>
+
+                    </com.allen.library.shape.ShapeConstraintLayout>
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rv_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_24"
+                        android:clipToPadding="false"
+                        android:orientation="vertical"
+                        android:overScrollMode="never"
+                        android:paddingHorizontal="@dimen/dp_10"
+                        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                        app:spanCount="5" />
+
+                </LinearLayout>
+
+                <com.allen.library.shape.ShapeLinearLayout
+                    android:id="@+id/shapeFrameLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="@dimen/dp_24"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    app:layout_scrollChild="@+id/recyclerView"
+                    app:shapeCornersTopLeftRadius="@dimen/dp_32"
+                    app:shapeCornersTopRightRadius="@dimen/dp_32"
+                    app:shapeSolidColor="#FFF5F5F5">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/dp_20"
+                        android:layout_marginTop="@dimen/dp_20"
+                        android:text="其他测试"
+                        android:textColor="@color/color_262626"
+                        android:textSize="@dimen/sp_14"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:overScrollMode="never"
+                        android:visibility="visible" />
+
+                </com.allen.library.shape.ShapeLinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </FrameLayout>
+    </com.apkdv.mvvmfast.view.StateLayout>
+</layout>

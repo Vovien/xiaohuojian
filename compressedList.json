@@ -1,0 +1,870 @@
+[
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\app\\src\\main\\res\\drawable\\ic_launcher.png",
+    "beforeSize": 73099,
+    "afterSize": 21137,
+    "md5": "4aa8e1e4ce7e380245b395d0f43f9612",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png",
+    "beforeSize": 6006,
+    "afterSize": 5127,
+    "md5": "6e1bd6342f8af495a4a9efc15646a293",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\app\\src\\main\\res\\mipmap-xxhdpi\\circle_female_icon.webp",
+    "beforeSize": 21538,
+    "afterSize": 3538,
+    "md5": "a61f59e46d18ed863c675684dd2672b3",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\app\\src\\main\\res\\mipmap-xxhdpi\\circle_single_icon.webp",
+    "beforeSize": 12574,
+    "afterSize": 2910,
+    "md5": "dbc82aa4e1eadf018709b58ed178f706",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png",
+    "beforeSize": 6696,
+    "afterSize": 5753,
+    "md5": "e36d3b701bd72f8199cabb47ef2df9db",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png",
+    "beforeSize": 10644,
+    "afterSize": 9707,
+    "md5": "eef58918ab8d1ac90c184789c440a5f3",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable\\icon_home_hi.png",
+    "beforeSize": 32546,
+    "afterSize": 8439,
+    "md5": "78ce5bb98bb629c83b75d16fef783c09",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable\\icon_home_hi_person.png",
+    "beforeSize": 74431,
+    "afterSize": 18795,
+    "md5": "6f32b245e43b5c2485d3329ac48f511b",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable\\icon_user_letter.png",
+    "beforeSize": 49665,
+    "afterSize": 13291,
+    "md5": "f011a1295818735d992e5261a8b99ee9",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable\\icon_user_letter_love.png",
+    "beforeSize": 106678,
+    "afterSize": 24460,
+    "md5": "939c526383ce681e9668eab548cdb566",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable-xxhdpi\\home_common_question.webp",
+    "beforeSize": 117844,
+    "afterSize": 34652,
+    "md5": "a21d2bb4dad432bbb92253ba051be45e",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable-xxhdpi\\home_header_logo_icon.png",
+    "beforeSize": 19485,
+    "afterSize": 6579,
+    "md5": "9f28bf3ad73af76067231e117e313a83",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\home\\src\\main\\res\\drawable-xxhdpi\\home_heart_icon.webp",
+    "beforeSize": 16440,
+    "afterSize": 16440,
+    "md5": "920003eaf1b0af15424448c339d5bea2",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-middleware\\src\\main\\res\\mipmap-xxxhdpi\\icon_jmbon_launcher.png",
+    "beforeSize": 9661,
+    "afterSize": 3336,
+    "md5": "4cab440b087395042101d6005f5d66a3",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-middleware\\src\\main\\res\\mipmap-xxxhdpi\\icon_jmtuan_launcher.png",
+    "beforeSize": 17599,
+    "afterSize": 6462,
+    "md5": "87a20190c71e2d25afda04b11d7f3caa",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\advisory_robot_icon.png",
+    "beforeSize": 17153,
+    "afterSize": 14563,
+    "md5": "ed579b7aa085176f38fd00f7dddbac68",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\advisory_send_icon.webp",
+    "beforeSize": 8170,
+    "afterSize": 2296,
+    "md5": "b1b307309bc9f4e34bfd676a9a8d6cd0",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\fertility_counselor_dialog_bg.webp",
+    "beforeSize": 21136,
+    "afterSize": 20436,
+    "md5": "48a276d4b30a962a7d0df801ae19b8b7",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\home_add_counselor_text.png",
+    "beforeSize": 5896,
+    "afterSize": 5530,
+    "md5": "01c57a9623f20e8f26e0be1ce25e9373",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\home_counselor_image.webp",
+    "beforeSize": 12794,
+    "afterSize": 12474,
+    "md5": "dd600624ed5149287bb225046740c596",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\home_fertility_test_text.webp",
+    "beforeSize": 6562,
+    "afterSize": 6562,
+    "md5": "6745b85135dd8f3bf9b0af36d3e36a6c",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\module-minitools\\src\\main\\res\\drawable-xxhdpi\\recommend_budget_indicator_icon.webp",
+    "beforeSize": 5848,
+    "afterSize": 3126,
+    "md5": "97b8f02bbf2fa4a6842b59bb3ed79a18",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable\\icon_slogan_image.webp",
+    "beforeSize": 212496,
+    "afterSize": 29566,
+    "md5": "8c0985ce26001067d5d416908f048727",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-nodpi\\default_man_activies_icon.webp",
+    "beforeSize": 6304,
+    "afterSize": 2232,
+    "md5": "996c6f85f7d5bac96ac5dd4157011dcb",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-nodpi\\default_man_unactivies_icon.webp",
+    "beforeSize": 27600,
+    "afterSize": 12746,
+    "md5": "2808e5799687e01cfb767283305f78cc",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-nodpi\\default_women_activies_icon.webp",
+    "beforeSize": 5756,
+    "afterSize": 2314,
+    "md5": "9ebf1d295f05c4cb2def22facefb6a1f",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-nodpi\\default_women_unctivies_icon.webp",
+    "beforeSize": 25202,
+    "afterSize": 13274,
+    "md5": "c47cbe1e370d7409dd00dd82aaec5545",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\bg_main.png",
+    "beforeSize": 87996,
+    "afterSize": 22352,
+    "md5": "f033114fe865b4d072f086f43a3842dc",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\bg_top_bg.webp",
+    "beforeSize": 36862,
+    "afterSize": 26328,
+    "md5": "fad960c85ad30f3625d9d8e8156a1aec",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_baby_tube_status_selected.webp",
+    "beforeSize": 5342,
+    "afterSize": 1078,
+    "md5": "78a88c16e70f2f1490ab9ab0f85b577d",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_hot_qa_bg.webp",
+    "beforeSize": 10366,
+    "afterSize": 8948,
+    "md5": "f373ce2069f235059a3f84eb73de49c1",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_login_face.webp",
+    "beforeSize": 19482,
+    "afterSize": 4500,
+    "md5": "44d7ab1aa0f25833a97250e230b29efc",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_message_comment.webp",
+    "beforeSize": 7030,
+    "afterSize": 2152,
+    "md5": "26cb2c0d76d05771103951e629db3d0d",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_message_exceptional.webp",
+    "beforeSize": 6354,
+    "afterSize": 2494,
+    "md5": "9e60d12ddb4ebcc07d7ce6a88f6ffcba",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_message_fans.webp",
+    "beforeSize": 5654,
+    "afterSize": 2008,
+    "md5": "a837854c01af7efd3c482640e03a40fc",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_message_to_answer.webp",
+    "beforeSize": 7526,
+    "afterSize": 2098,
+    "md5": "01e71ae2f64d87f830a632415e3b7b6c",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_me_circle.webp",
+    "beforeSize": 7232,
+    "afterSize": 784,
+    "md5": "c364ed0848aac8c1a538952aa2888fc1",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_no_data.webp",
+    "beforeSize": 9946,
+    "afterSize": 4408,
+    "md5": "4ce34244991adcb4cc642ee592e83ae4",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_occupy_column.webp",
+    "beforeSize": 51228,
+    "afterSize": 9742,
+    "md5": "319cc6de0bf5a113e0d634abca494147",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_pregnant_have_baby_selected.webp",
+    "beforeSize": 5916,
+    "afterSize": 1794,
+    "md5": "d44efc9e377fd37313e93e57546ba97a",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_pregnant_ing_selected.webp",
+    "beforeSize": 8012,
+    "afterSize": 2756,
+    "md5": "2a0596884be58b16ebe91b1e0b67aa22",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\icon_ready_pregnant_selected.webp",
+    "beforeSize": 6332,
+    "afterSize": 1736,
+    "md5": "d7e70abd6f2fbfffe06c815362290698",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\ic_logo.png",
+    "beforeSize": 61218,
+    "afterSize": 15701,
+    "md5": "f4e35c3ea464e17fd776d536f1f9ebb8",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xhdpi\\main_home_hot_top_bg.webp",
+    "beforeSize": 110210,
+    "afterSize": 40364,
+    "md5": "84b83dc3ed106484afb4c8ef20fd1210",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\aliyun_network_lost.png",
+    "beforeSize": 9906,
+    "afterSize": 1583,
+    "md5": "06ead21216bb4a94f8c2d3def9317bdf",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\bg_main.png",
+    "beforeSize": 132910,
+    "afterSize": 43074,
+    "md5": "ea09a1ef7358ed44d2965ea74ca6aed8",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\bg_top_bg.webp",
+    "beforeSize": 66778,
+    "afterSize": 43112,
+    "md5": "2f53e512de07b68ceed92a3ca068de23",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_baby_tube_status_select.webp",
+    "beforeSize": 7134,
+    "afterSize": 1116,
+    "md5": "ffdad64c862187b843ff476d4b6c1e4e",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_baby_tube_status_selected.webp",
+    "beforeSize": 9184,
+    "afterSize": 1580,
+    "md5": "e2c9843883a3285a47a6a02385c73f7c",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_empty_comment.webp",
+    "beforeSize": 8192,
+    "afterSize": 3072,
+    "md5": "d7c0c0a4086061bd551f442bed70f50e",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_empty_message.webp",
+    "beforeSize": 7290,
+    "afterSize": 3112,
+    "md5": "948d01f06d9fd96a3f49d9f3bc296f6c",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_hot_qa_bg.webp",
+    "beforeSize": 31384,
+    "afterSize": 31384,
+    "md5": "235f87a405d3ac82a6ee553903fa6ed4",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_hot_topic.webp",
+    "beforeSize": 8954,
+    "afterSize": 2412,
+    "md5": "96fd956f7ca53e88e54b7e1abf5b2e5f",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_into_group.png",
+    "beforeSize": 45843,
+    "afterSize": 9993,
+    "md5": "5de0c53caddbb5af63ccd8e3178717ab",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_knowledge_red_bg.png",
+    "beforeSize": 125048,
+    "afterSize": 31257,
+    "md5": "1cb35c918fce574106ce450c7ed4a776",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_login_face.webp",
+    "beforeSize": 32352,
+    "afterSize": 6092,
+    "md5": "0058a60f01c1e64e0176802ef18c9f91",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_message_comment.webp",
+    "beforeSize": 12932,
+    "afterSize": 3420,
+    "md5": "720b1c3465c97c67d27fc8a5760cb0b5",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_message_exceptional.webp",
+    "beforeSize": 11274,
+    "afterSize": 4142,
+    "md5": "373943f1e20ce526ba03d6f49f638b67",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_message_fans.webp",
+    "beforeSize": 10326,
+    "afterSize": 3188,
+    "md5": "b6d6adb54210b0fd6a5bf6cf867e27c6",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_message_to_answer.webp",
+    "beforeSize": 12666,
+    "afterSize": 3456,
+    "md5": "763c69dfb62918753a74ada7ee7a0343",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_me_circle.webp",
+    "beforeSize": 12206,
+    "afterSize": 1222,
+    "md5": "982b3c10f60e3893aba5c74e199791ea",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_mutually_message.webp",
+    "beforeSize": 6988,
+    "afterSize": 3848,
+    "md5": "bdef92f16fd67f83728bd9831be24d53",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_new_tube_dialog.webp",
+    "beforeSize": 21286,
+    "afterSize": 2592,
+    "md5": "581aacfbf762e795e63c55dec1757c54",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_no_data.webp",
+    "beforeSize": 15136,
+    "afterSize": 6506,
+    "md5": "26f2f61be5b8f76247b46d2ccf014507",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_occupy_column.webp",
+    "beforeSize": 95038,
+    "afterSize": 13580,
+    "md5": "24b304b464d2b3d29e02274a09fe74e5",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_popwindow.webp",
+    "beforeSize": 71490,
+    "afterSize": 2966,
+    "md5": "943f9d774eb533b363bb97ed087d887c",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_pregnant_have_baby_normal.webp",
+    "beforeSize": 5888,
+    "afterSize": 2382,
+    "md5": "857d39273e26439325ff9353f72fe75b",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_pregnant_have_baby_selected.webp",
+    "beforeSize": 11006,
+    "afterSize": 2882,
+    "md5": "bd7d759149c8ae4e5a8ec1321d7b8695",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_pregnant_ing_naomal.webp",
+    "beforeSize": 6776,
+    "afterSize": 3502,
+    "md5": "2537edfbe2e8ae40cce65db4acaa0c00",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_pregnant_ing_selected.webp",
+    "beforeSize": 14600,
+    "afterSize": 4206,
+    "md5": "bc2e8cfc2ad4a3b4d7bd475a5c91088d",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_ready_pregnant_selected.webp",
+    "beforeSize": 11736,
+    "afterSize": 2556,
+    "md5": "920a8532490b9cd1d9defd9cf2e63d15",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_rocket.webp",
+    "beforeSize": 46040,
+    "afterSize": 7418,
+    "md5": "30b59ba47cebe2df9f1048b16bd36d58",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_smiling_face.webp",
+    "beforeSize": 6182,
+    "afterSize": 1974,
+    "md5": "ea9701c1c33cd14f3e5219c7d28a8878",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_tube_pos1.png",
+    "beforeSize": 12554,
+    "afterSize": 2635,
+    "md5": "5d831efeb0ca68373a337e88f6ee07f4",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_tube_pos2.png",
+    "beforeSize": 14991,
+    "afterSize": 3533,
+    "md5": "c548d163b1471d292bc94656eed75e21",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_tube_pos3.png",
+    "beforeSize": 13969,
+    "afterSize": 3806,
+    "md5": "89b429c10459d0707ea46da96459f181",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_tube_pos4.png",
+    "beforeSize": 15147,
+    "afterSize": 3372,
+    "md5": "75004af58560cf57f687a8e267dc344e",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_tube_pos5.png",
+    "beforeSize": 13192,
+    "afterSize": 3469,
+    "md5": "fb673fa62314136f3b0ab6ff52bcbe2c",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_tube_pos6.png",
+    "beforeSize": 17692,
+    "afterSize": 4151,
+    "md5": "042ba3dcc20800dab61c8aa6cdcf57dc",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\icon_user_bg.png",
+    "beforeSize": 51905,
+    "afterSize": 8329,
+    "md5": "41cfeeb90739818e3ec133efa05fd578",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\main_home_hot_top_bg.webp",
+    "beforeSize": 154330,
+    "afterSize": 65090,
+    "md5": "22c640b9432eb7102ae61bfb32edbd40",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxhdpi\\pic_toady_hot_bg.webp",
+    "beforeSize": 7778,
+    "afterSize": 7778,
+    "md5": "f846555d7cfc7e0f606b6ed5517fee57",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\bg_main.png",
+    "beforeSize": 162170,
+    "afterSize": 68125,
+    "md5": "3e37d99950c5fab5b3036a12a2dee464",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\bg_top_bg.webp",
+    "beforeSize": 99764,
+    "afterSize": 84804,
+    "md5": "84ee93d933fe8e4103fc14a07adc28ae",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_article_doctor_tag.png",
+    "beforeSize": 13513,
+    "afterSize": 3800,
+    "md5": "9bca8d332bade93947785d4b79cbecdf",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_baby_tube_status_select.webp",
+    "beforeSize": 9642,
+    "afterSize": 1536,
+    "md5": "a56995ba1d69ee4a973b1feb9e2f73a6",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_baby_tube_status_selected.webp",
+    "beforeSize": 14292,
+    "afterSize": 2160,
+    "md5": "7f27e373dc309218924660b84e7a1fb3",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_circle_detail_bg.png",
+    "beforeSize": 416340,
+    "afterSize": 170311,
+    "md5": "576250de101fb78dddefdd2bead575d1",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_circle_qa_top_bg.webp",
+    "beforeSize": 6512,
+    "afterSize": 6512,
+    "md5": "9c4ee483dfa9b4db00ed96240bdbee75",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_collect.webp",
+    "beforeSize": 6348,
+    "afterSize": 1660,
+    "md5": "d84a2e0e8b870826b83d4b90a8c091a9",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_describe.png",
+    "beforeSize": 12508,
+    "afterSize": 3350,
+    "md5": "e26e2e31fde5f4a2a5857135637fabd2",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_empty_comment.webp",
+    "beforeSize": 10370,
+    "afterSize": 3898,
+    "md5": "1087932103432bbe60b7527115926f46",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_empty_message.webp",
+    "beforeSize": 10650,
+    "afterSize": 4956,
+    "md5": "6eba786792ec6928711f78983966af0a",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_good_question_tag.webp",
+    "beforeSize": 31772,
+    "afterSize": 25982,
+    "md5": "62e30f8a3c50a4dacb0c0a1b663227ec",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_hospital_manager_tag.png",
+    "beforeSize": 102889,
+    "afterSize": 73782,
+    "md5": "e6f4f3a1fd1d233eccf7c9acdb75d32f",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_hospital_selected.png",
+    "beforeSize": 5153,
+    "afterSize": 1636,
+    "md5": "b0eac16f96dccfe78a313ec748e51357",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_hot_qa_bg.webp",
+    "beforeSize": 66570,
+    "afterSize": 66570,
+    "md5": "96942df43b37eff8387060f9ca395b2b",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_hot_topic.webp",
+    "beforeSize": 12876,
+    "afterSize": 3268,
+    "md5": "3c75645685d25468d24ef5b5ca5eee4a",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_login_face.webp",
+    "beforeSize": 48852,
+    "afterSize": 8664,
+    "md5": "f3f9987c6986dec2c5b825419e85b633",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_login_privacy_tips_bg.png",
+    "beforeSize": 6002,
+    "afterSize": 909,
+    "md5": "75a528a5b6a859f428010b45219e0e73",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_message_comment.webp",
+    "beforeSize": 25274,
+    "afterSize": 4582,
+    "md5": "783a3b62bda97982f5ff69d536396564",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_message_exceptional.webp",
+    "beforeSize": 17438,
+    "afterSize": 5334,
+    "md5": "592e807035cf33e6ed64100d766e939e",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_message_fans.webp",
+    "beforeSize": 16316,
+    "afterSize": 4332,
+    "md5": "987d47ab9e2bc993e4aea28fd3281222",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_message_to_answer.webp",
+    "beforeSize": 19744,
+    "afterSize": 4728,
+    "md5": "9814e2116d0545c686308f59dc633b60",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_me_circle.webp",
+    "beforeSize": 13522,
+    "afterSize": 1850,
+    "md5": "0b8368a5b4d8d3d701116798b3b905d4",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_mutually_message.webp",
+    "beforeSize": 10010,
+    "afterSize": 5248,
+    "md5": "2acb0b2e8fb59787576fb6050dff6702",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_no_data.webp",
+    "beforeSize": 21206,
+    "afterSize": 9214,
+    "md5": "a6f9b77b722ea310bcc2e53e50f840ab",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_occupy_column.webp",
+    "beforeSize": 146432,
+    "afterSize": 18356,
+    "md5": "608ea5842022faeb65062c6a62525675",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_pregnant_have_baby_normal.webp",
+    "beforeSize": 8514,
+    "afterSize": 3256,
+    "md5": "5a7f0c026269f79e8015b0130b58417a",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_pregnant_have_baby_selected.webp",
+    "beforeSize": 17770,
+    "afterSize": 4050,
+    "md5": "24d7a5188ffd138ed9c4c62a7d653f62",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_pregnant_ing_naomal.webp",
+    "beforeSize": 9946,
+    "afterSize": 4468,
+    "md5": "3d27bf6a68a6f6ac82d44adfe9f5373f",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_pregnant_ing_selected.webp",
+    "beforeSize": 21684,
+    "afterSize": 5500,
+    "md5": "85f9fef660fe93a2b7905ddd4a613557",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_ready_pregnant_normal.webp",
+    "beforeSize": 7684,
+    "afterSize": 2764,
+    "md5": "870f2df2c12abc37ec8caf5447dc2cb1",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_ready_pregnant_selected.webp",
+    "beforeSize": 16906,
+    "afterSize": 3442,
+    "md5": "3c39552c96a864a08515c28bbb1a45c7",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_seission_log.webp",
+    "beforeSize": 6308,
+    "afterSize": 1532,
+    "md5": "d7580a36fbb4186cb8b296cbccc42765",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_setting.webp",
+    "beforeSize": 7028,
+    "afterSize": 1654,
+    "md5": "f5ed7f0ea2e20e9c9dae6c35b9cbb128",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_test_tube_bill.webp",
+    "beforeSize": 8960,
+    "afterSize": 8960,
+    "md5": "fbae4915334792d9106bec712b0738a3",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\icon_tube_wiki_tag.png",
+    "beforeSize": 6209,
+    "afterSize": 2114,
+    "md5": "53993e6351b2979f0e86bbdbc43c2e83",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\img_no_network.png",
+    "beforeSize": 58627,
+    "afterSize": 13257,
+    "md5": "3faf69db8cd431a5aa8d163b1d021a50",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\main_home_hot_top_bg.webp",
+    "beforeSize": 189240,
+    "afterSize": 89578,
+    "md5": "e46be08306c86624c2796418e02f6f5c",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\pay_pwd_success_icon.png",
+    "beforeSize": 8451,
+    "afterSize": 2449,
+    "md5": "23f8171179ecdde0721e18dabff016e8",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\drawable-xxxhdpi\\pic_toady_hot_bg.webp",
+    "beforeSize": 10874,
+    "afterSize": 10874,
+    "md5": "ea9256b7ba76db380871f6d301fcf6e9",
+    "ignore": true
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\mipmap-xxxhdpi\\icon_follow_empty.png",
+    "beforeSize": 22349,
+    "afterSize": 6193,
+    "md5": "b8fa042b07bfca130b39fe4c2c63c395",
+    "ignore": false
+  },
+  {
+    "path": "D:\\WorkSpace\\Android\\lesborn\\resources\\src\\main\\res\\mipmap-xxxhdpi\\icon_login_lesborn.png",
+    "beforeSize": 142682,
+    "afterSize": 30385,
+    "md5": "99113e71ffdc65af630ec622a8e6ae6f",
+    "ignore": false
+  }
+]

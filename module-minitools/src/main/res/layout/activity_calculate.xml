@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_currency"
+    tools:context=".tubetest.view.CalculateResultActivity">
+
+    <View
+        android:id="@+id/spit_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="#0D000000"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/fl_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/dp_120"
+        android:visibility="visible">
+
+        <com.jmbon.widget.SuperView
+            android:id="@+id/view_bg"
+            android:layout_width="@dimen/dp_240"
+            android:layout_height="@dimen/dp_240"
+            android:layout_gravity="center"
+            app:vCornersRadius="@dimen/dp_120"
+            app:vSolidColor="#1AFE6EAB" />
+
+
+        <com.lihang.ShadowLayout
+            android:id="@+id/sl_view"
+            android:layout_width="@dimen/dp_200"
+            android:layout_height="@dimen/dp_210"
+            android:layout_gravity="center"
+            app:hl_cornerRadius="@dimen/dp_120"
+            app:hl_layoutBackground="@color/white"
+            app:hl_shadowColor="@color/color_currency_10"
+            app:hl_shadowLimit="5dp"
+            app:hl_shadowOffsetY="@dimen/dp_5">
+
+            <TextView
+                android:id="@+id/tv_forecast"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:shadowColor="@color/red"
+                android:text="预测中"
+                android:textColor="@color/color_currency"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </com.lihang.ShadowLayout>
+
+
+    </FrameLayout>
+
+
+    <com.allen.library.shape.ShapeConstraintLayout
+        android:id="@+id/cl_result"
+        app:layout_constraintTop_toBottomOf="@+id/spit_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_20"
+        android:layout_marginTop="@dimen/dp_24"
+        android:layout_marginEnd="@dimen/dp_20"
+        android:background="@color/white"
+        android:visibility="gone"
+        app:shapeCornersRadius="@dimen/dp_8"
+        app:shapeSolidColor="@color/white">
+
+        <com.lihang.ShadowLayout
+            android:id="@+id/sl_result"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_120"
+            android:layout_marginStart="@dimen/dp_14"
+            android:layout_marginTop="@dimen/dp_14"
+            android:layout_marginEnd="@dimen/dp_14"
+            app:hl_cornerRadius="@dimen/dp_8"
+            app:hl_endColor="@color/color_currency"
+            app:hl_shadowColor="@color/color_currency"
+            app:hl_shadowLimit="@dimen/dp_10"
+            app:hl_shadowOffsetY="@dimen/dp_5"
+            app:hl_startColor="#FF2CBDC4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/tv_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/dp_30"
+                android:text="成功率"
+                android:textColor="#ffffffff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="@dimen/dp_30"
+                android:fontFamily="@font/din_alternate_bold"
+                android:textColor="#ffffffff"
+                android:textSize="50sp"
+                tools:text="80%" />
+        </com.lihang.ShadowLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_32"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sl_result">
+
+            <TextView
+                android:id="@+id/tv_days_title"
+                android:layout_width="64dp"
+                android:layout_height="22dp"
+                android:text="首次日程"
+                android:textColor="#ff7f7f7f"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_days"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:text="47~55"
+                android:textColor="#ff262626"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_days_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_4"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:text="天"
+                android:textColor="#ff262626"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/tv_days"
+                app:layout_constraintStart_toEndOf="@id/tv_days" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cl_cost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_32"
+            android:alpha="0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cl_days">
+
+            <TextView
+                android:id="@+id/tv_cost_title"
+                android:layout_width="64dp"
+                android:layout_height="22dp"
+                android:text="首次花费"
+                android:textColor="#ff7f7f7f"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tv_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_4"
+                android:text="24000~34000"
+                android:textColor="#ff262626"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_cost_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_4"
+                android:layout_marginBottom="@dimen/dp_8"
+                android:text="天"
+                android:textColor="#ff262626"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/tv_cost"
+                app:layout_constraintStart_toEndOf="@id/tv_cost" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_3"
+            android:layout_marginTop="@dimen/dp_40"
+            android:background="@drawable/drawable_dash_line"
+            app:layout_constraintTop_toBottomOf="@+id/cl_cost" />
+
+        <com.jmbon.widget.SuperView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginStart="-15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/line"
+            app:layout_constraintStart_toStartOf="@+id/line"
+            app:layout_constraintTop_toTopOf="@+id/line"
+            app:vCornersRadius="@dimen/dp_15"
+            app:vSolidColor="@color/color_currency" />
+
+        <com.jmbon.widget.SuperView
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginEnd="-15dp"
+            app:layout_constraintBottom_toBottomOf="@+id/line"
+            app:layout_constraintEnd_toEndOf="@+id/line"
+            app:layout_constraintTop_toTopOf="@+id/line"
+            app:vCornersRadius="@dimen/dp_15"
+            app:vSolidColor="@color/color_currency" />
+
+
+        <com.allen.library.SuperButton
+            android:id="@+id/btn_more"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_marginStart="@dimen/dp_24"
+            android:layout_marginTop="@dimen/dp_46"
+            android:layout_marginEnd="@dimen/dp_24"
+            android:alpha="0"
+            android:enabled="true"
+            android:text="@string/more_content"
+            android:textColor="@color/color_currency"
+            android:textSize="@dimen/sp_16"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/line"
+            app:sCornersRadius="@dimen/dp_10"
+            app:sSelectorDisableColor="@color/picture_color_e5"
+            app:sSelectorPressedColor="@color/color_currency"
+            app:sSolidColor="@color/color_currency_10" />
+
+        <LinearLayout
+            android:id="@+id/ll_try"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_24"
+            android:layout_marginBottom="@dimen/dp_50"
+            android:alpha="0"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_more">
+
+            <ImageView
+                android:layout_width="@dimen/dp_20"
+                android:layout_height="@dimen/dp_20"
+                android:src="@drawable/icon_retry" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dp_2"
+                android:text="重新测试"
+                android:textColor="#ff262626"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_18"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:layout_marginBottom="-9dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </com.allen.library.shape.ShapeConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

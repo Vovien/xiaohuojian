@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.apkdv.mvvmfast.view.StateLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/state_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_page"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:overScrollMode="never"
+            app:layout_constraintBottom_toTopOf="@id/line"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:background="@color/black08"
+            app:layout_constraintBottom_toTopOf="@id/rg_bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/rg_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RadioButton
+                android:id="@+id/rb_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/index"
+                android:textColor="@color/selector_check_text"
+                android:textSize="@dimen/sp_17"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rb_knowledge"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/knowledge"
+                android:textColor="@color/selector_check_text"
+                android:textSize="@dimen/sp_17"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_join_group"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/join_group"
+                android:textColor="@color/selector_check_text"
+                android:textSize="@dimen/sp_17"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/rb_mine"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:button="@null"
+                android:focusable="true"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/mine"
+                android:textColor="@color/selector_check_text"
+                android:textSize="@dimen/sp_17"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.apkdv.mvvmfast.view.StateLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+
+        <variable
+            name="bean"
+            type="com.jmbon.middleware.bean.KnowledgeBean" />
+    </data>
+
+    <com.apkdv.mvvmfast.view.StateLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                app:elevation="@dimen/dp_0">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cl_group_booking"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    android:paddingBottom="@dimen/dp_20"
+                    app:layout_scrollFlags="scroll">
+
+                    <ImageView
+                        android:id="@+id/iv_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/dp_32"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/icon_knowledge_red_bg"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+
+                    <ImageView
+                        android:id="@+id/iv_person"
+                        android:layout_width="@dimen/dp_120"
+                        android:layout_height="@dimen/dp_120"
+                        android:layout_marginEnd="@dimen/dp_4"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:load="@{bean.card.personImg}" />
+
+                    <ImageView
+                        android:id="@+id/iv_logo"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginStart="@dimen/dp_11"
+                        android:layout_marginTop="@dimen/dp_22"
+                        android:layout_marginEnd="119dp"
+                        app:layout_constraintDimensionRatio="h,205:51"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/iv_bg"
+                        app:load="@{bean.card.titleImg}" />
+
+                    <com.allen.library.shape.ShapeConstraintLayout
+                        android:id="@+id/cl_pinggou"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="12dp"
+                        android:layout_marginTop="@dimen/dp_15"
+                        android:paddingStart="@dimen/dp_12"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/iv_logo"
+                        app:shapeCornersRadius="16dp"
+                        app:shapeGradientAngle="top_bottom"
+                        app:shapeGradientEndColor="#FFFFF9E3"
+                        app:shapeGradientStartColor="#FFFFFBEE">
+
+                        <TextView
+                            android:id="@+id/tv_one"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_24"
+                            android:drawableStart="@drawable/icon_yes"
+                            android:drawablePadding="@dimen/dp_4"
+                            android:text="@{bean.card.strOne}"
+                            android:textColor="#FFA94F36"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/tv_two"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dp_37"
+                            android:drawableStart="@drawable/icon_yes"
+                            android:drawablePadding="@dimen/dp_4"
+                            android:text="@{bean.card.strTwo}"
+                            android:textColor="#FFA94F36"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@id/tv_one"
+                            app:layout_constraintTop_toTopOf="@+id/tv_one" />
+
+                        <TextView
+                            android:id="@+id/tv_three"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_12"
+                            android:drawableStart="@drawable/icon_yes"
+                            android:drawablePadding="@dimen/dp_4"
+                            android:text="@{bean.card.strThree}"
+                            android:textColor="#FFA94F36"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:layout_marginBottom="@dimen/dp_24"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/tv_one"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        <TextView
+                            android:id="@+id/tv_four"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/dp_37"
+                            android:drawableStart="@drawable/icon_yes"
+                            android:drawablePadding="@dimen/dp_4"
+                            android:text="@{bean.card.strFour}"
+                            android:textColor="#FFA94F36"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            app:layout_constraintStart_toEndOf="@id/tv_three"
+                            app:layout_constraintTop_toTopOf="@id/tv_three" />
+
+                        <com.lihang.ShadowLayout
+                            android:id="@+id/music_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            app:hl_cornerRadius="@dimen/dp_11"
+                            app:hl_layoutBackground="#FFFF832E"
+                            app:hl_shadowColor="#66FF832E"
+                            app:hl_shadowLimit="12dp"
+                            app:hl_shadowOffsetY="8dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <com.allen.library.shape.ShapeFrameLayout
+                                android:layout_width="78dp"
+                                android:layout_height="44dp"
+                                android:orientation="vertical"
+                                app:shapeCornersRadius="@dimen/dp_11"
+                                app:shapeSolidColor="#FFFF832E">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="立即拼购"
+                                    android:textColor="@color/white"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    tools:text="立即拼购" />
+                            </com.allen.library.shape.ShapeFrameLayout>
+                        </com.lihang.ShadowLayout>
+
+                    </com.allen.library.shape.ShapeConstraintLayout>
+
+                    <com.youth.banner.Banner
+                        android:id="@+id/banner_tip"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/dp_20"
+                        android:layout_marginVertical="@dimen/dp_10"
+                        app:banner_auto_loop="true"
+                        app:banner_infinite_loop="true"
+                        app:banner_loop_time="1000"
+                        app:banner_orientation="vertical"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/cl_pinggou" />
+
+                    <View
+                        android:id="@+id/tip_view"
+                        android:layout_width="@dimen/dp_0"
+                        android:layout_height="@dimen/dp_0"
+                        app:layout_constraintTop_toTopOf="@id/banner_tip"
+                        app:layout_constraintLeft_toLeftOf="@id/banner_tip"
+                        app:layout_constraintRight_toRightOf="@id/banner_tip"
+                        app:layout_constraintBottom_toBottomOf="@id/banner_tip"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="@dimen/dp_12"
+                    android:layout_marginStart="@dimen/dp_20"
+                    android:gravity="center_vertical"
+                    app:layout_scrollFlags="scroll">
+
+                    <com.allen.library.shape.ShapeTextView
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        app:shapeSolidColor="@color/color_currency"
+                        app:shapeType="oval" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="推荐"
+                        android:textColor="@color/color_262626"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="#FFF9F9F9"
+                    android:layout_marginHorizontal="@dimen/dp_20"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_scrollFlags="scroll"/>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="never"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.apkdv.mvvmfast.view.StateLayout>
+</layout>
